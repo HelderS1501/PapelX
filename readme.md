@@ -50,8 +50,9 @@ O ecossistema do código está dividido para garantir a separação de responsab
 ### 📌 Principais Endpoints do CRUD
 
 #### 📦 Produtos (Materiais, Cadernos, Escritório)
-    `GET /api/produtos` - Lista todos os produtos da papelaria com paginação e filtros.<br>
-    `GET /api/produtos/{id}` - Obtém os detalhes de um item específico pelo ID.<br>
-    `POST /api/produtos` - Cadastra um novo produto (valida campos obrigatórios, preço e estoque inicial).<br>
-    `PUT /api/produtos/{id}` - Atualiza as informações de um item existente.<br>
-    `DELETE /api/produtos/{id}` - Remove o produto do catálogo da papelaria.<br>
+
+    GET /api/produtos - Lista todos os produtos da papelaria com paginação e filtros.
+    GET /api/produtos/{id}` - Obtém os detalhes de um item específico pelo ID.
+    POST /api/produtos` - Cadastra um novo produto (valida campos obrigatórios, preço e estoque inicial).
+    PUT /api/produtos/{id}` - Atualiza as informações de um item existente.
+    DELETE /api/produtos/{id}` - Remove o produto do catálogo da papelaria.
