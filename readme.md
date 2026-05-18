@@ -47,9 +47,9 @@ O ecossistema do código está dividido para garantir a separação de responsab
     ```bash
         A API iniciará localmente. Você pode acessar a documentação interativa dos endpoints pelo Scalar através do navegador em: http://localhost:5000/scalar
     ```
-📌 Principais Endpoints do CRUD
+### 📌 Principais Endpoints do CRUD
 
-📦 Produtos (Materiais, Cadernos, Escritório)
+#### 📦 Produtos (Materiais, Cadernos, Escritório)
     `GET /api/produtos` - Lista todos os produtos da papelaria com paginação e filtros.<br>
     `GET /api/produtos/{id}` - Obtém os detalhes de um item específico pelo ID.<br>
     `POST /api/produtos` - Cadastra um novo produto (valida campos obrigatórios, preço e estoque inicial).<br>
