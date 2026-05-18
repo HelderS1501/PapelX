@@ -1,12 +1,10 @@
 <div align="center">
-  <img src="./Doc/img/PapelX-Logo1_White.png" alt="PapelX Logo" width="580" />
+  <img src="./Doc/img/PapelX-Logo1_White.png" alt="PapelX Logo" width="500" height="285" />
 </div>
 
 ---
 
 # ✏️ PapelX - Gestão de Papelaria (Backend)
-
-TESTE
 
 O **PapelX** é um sistema de gerenciamento para papelarias que expõe uma API robusta para o controle de produtos (canetas, cadernos, papéis), gerenciamento de estoque e fluxo de vendas. O projeto foi desenvolvido como um CRUD limpo, focado em performance, simplicidade de execução e estruturado com as novidades do C# e .NET 10.
 
@@ -15,22 +13,19 @@ O **PapelX** é um sistema de gerenciamento para papelarias que expõe uma API r
 * **Linguagem:** C# (.NET 10)
 * **Framework:** ASP.NET Core Web API
 * **IDE:** JetBrains Rider Community
-* **Arquitetura:** Clean Architecture / Camadas (Domain, Infrastructure, Application, API)
-* **Banco de Dados:** Entity Framework Core (LocalDB / SQL Server instalado na máquina)
+* **Arquitetura:** Clean Architecture (Foi projetada e preparada para scalar horizontalmente.)
+* **Banco de Dados:** In-Memory
 
 ## 📐 Estrutura do Projeto
 
 O ecossistema do código está dividido para garantir a separação de responsabilidades:
-* **PapelX.Domain:** Entidades centrais (ex: `Produto`, `Categoria`), Enums e regras puras de validação de negócio.
-* **PapelX.Infrastructure:** Contexto do banco de dados (`DbContext`), migrações e persistência dos dados (Repositórios).
-* **PapelX.Application:** Serviços de aplicação, mapeamentos e as regras do CRUD (Casos de Uso).
-* **PapelX.API:** Camada de entrada que expõe os endpoints Controllers/Minimal APIs e as configurações da aplicação.
+* **PapelX.WebApi:** Camada única que expõe os endpoints da APIs.
 
 ## 🚀 Como Executar o Projeto
 
 ### Pré-requisitos
 * .NET 10 SDK instalado localmente.
-
+* Editor de texto ou IDE de sua preferência
 
 ### Passo a Passo
 
