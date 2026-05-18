@@ -6,6 +6,8 @@
 
 # ✏️ PapelX - Gestão de Papelaria (Backend)
 
+TESTE
+
 O **PapelX** é um sistema de gerenciamento para papelarias que expõe uma API robusta para o controle de produtos (canetas, cadernos, papéis), gerenciamento de estoque e fluxo de vendas. O projeto foi desenvolvido como um CRUD limpo, focado em performance, simplicidade de execução e estruturado com as novidades do C# e .NET 10.
 
 ## 🛠️ Tecnologias e Ferramentas Utilizadas
