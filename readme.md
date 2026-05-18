@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./Doc/img/PapelX-Logo1_Black.png" alt="PapelX Logo" width="580" />
+  <img src="./Doc/img/PapelX-Logo1_White.png" alt="PapelX Logo" width="580" />
 </div>
 
 ---
