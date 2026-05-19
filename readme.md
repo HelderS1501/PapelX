@@ -53,7 +53,7 @@ The ecosystem is divided to ensure separation of responsibilities:
 
 3. **Open in Browser:**
     ```text
-        The API will start locally. You can access interactive documentation for the endpoints via Scalar through: http://localhost:5000/scalar
+    The API will start locally. You can access interactive documentation for the endpoints via Scalar through: http://localhost:5000/scalar
     ```
 ### 📌 *Key CRUD Endpoints*
 
