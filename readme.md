@@ -4,6 +4,17 @@
 
 ---
 
+## 🗺️ Roadmap Project
+- [x] Initial folder structure and repository configuration
+- [ ] Implement database in-memory
+- [ ] CRUD for Products (`feat/create`, `feat/list`, etc.)
+- [ ] Merge to develop
+- [ ] Merge to staging
+- [ ] Merge to main
+- [ ] Go live in production
+
+---
+
 # ✏️ PapelX - Gestão de Papelaria (Backend)
 
 O **PapelX** é um sistema de gerenciamento para papelarias que expõe uma API robusta para o controle de produtos (canetas, cadernos, papéis), gerenciamento de estoque e fluxo de vendas. O projeto foi desenvolvido como um CRUD limpo, focado em performance, simplicidade de execução e estruturado com as novidades do C# e .NET 10.
