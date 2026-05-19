@@ -7,6 +7,6 @@ namespace PapelX.WebApi.Data
 {
     public class DataFake
     {
-        ///
+        //
     }
 }
