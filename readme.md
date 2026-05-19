@@ -4,7 +4,7 @@
 
 ---
 
-## 🗺️ Roadmap Project
+## 🗺️ *Roadmap Project (Backend)*
 - [x] Initial folder structure and repository configuration
 - [ ] Implement database in-memory
 - [ ] CRUD for Products (`feat/create`, `feat/list`, etc.)
@@ -15,52 +15,56 @@
 
 ---
 
-# ✏️ PapelX - Gestão de Papelaria (Backend)
+# ✏️ *PapelX - Stationery Management*
 
-O **PapelX** é um sistema de gerenciamento para papelarias que expõe uma API robusta para o controle de produtos (canetas, cadernos, papéis), gerenciamento de estoque e fluxo de vendas. O projeto foi desenvolvido como um CRUD limpo, focado em performance, simplicidade de execução e estruturado com as novidades do C# e .NET 10.
+**PapelX** is a management system for stationery stores that exposes a robust API for product control (pens, notebooks, paper). The project was developed using CRUD concepts, is minimalist and focused on objectivity, but prepared for scalability, simplicity of execution and well-structured; the entire backend was built in C# with .NET v10 and the ASP.NET Core Framework.
 
-## 🛠️ Tecnologias e Ferramentas Utilizadas
+## 🛠️ *Technologies and Tools Used*
 
-* **Linguagem:** C# (.NET 10)
-* **Framework:** ASP.NET Core Web API
-* **IDE:** JetBrains Rider Community
-* **Arquitetura:** Clean Architecture (Foi projetada e preparada para scalar horizontalmente.)
-* **Banco de Dados:** In-Memory
+* **Language:** C# v14, .NET v10
+* **Framework:** ASP.NET Core WebAPI
+* **IDE:** Visual Studio Code
+* **Architecture:** Clean, monolithic architecture (It was designed and prepared for horizontal scaling.)
+* **Database:** In-Memory
 
-## 📐 Estrutura do Projeto
+## 📐 *Project Structure*
 
-O ecossistema do código está dividido para garantir a separação de responsabilidades:
-* **PapelX.WebApi:** Camada única que expõe os endpoints da APIs.
+The ecosystem is divided to ensure separation of responsibilities:
+* **PapelX.WebApi:** Single layer that exposes the API endpoints.
 
-## 🚀 Como Executar o Projeto
+## 🚀 *How to Execute the Project*
 
-### Pré-requisitos
-* .NET 10 SDK instalado localmente.
-* Editor de texto ou IDE de sua preferência
+### *Prerequisites*
+* .NET 10 SDK installed locally.
+* Text editor or IDE of your choice.
 
-### Passo a Passo
+### *step by step*
 
-1. **Clonar o repositório:**
-   ```bash
+1. **Clone the repository:**
+   ```text
    git clone https://github.com/HelderS1501/PapelX.git
    cd PapelX
    ```
 
-2. **Rodar a Aplicação:**
-   ```bash
+2. **Run the Application:**
+   ```text
    dotnet run --project src/PapelX.WebApi/PapelX.WebApi.csproj
     ````
 
-3. **Abrir no Navegador:**
-    ```bash
-        A API iniciará localmente. Você pode acessar a documentação interativa dos endpoints pelo Scalar através do navegador em: http://localhost:5000/scalar
+3. **Open in Browser:**
+    ```text
+        The API will start locally. You can access interactive documentation for the endpoints via Scalar through: http://localhost:5000/scalar
     ```
-### 📌 Principais Endpoints do CRUD
+### 📌 *Key CRUD Endpoints*
 
-#### 📦 Produtos (Materiais, Cadernos, Escritório)
+#### 📦 *Products (Materials, Notebooks, Office Supplies)*
 
-    GET /api/produtos - Lista todos os produtos da papelaria com paginação e filtros.
-    GET /api/produtos/{id}` - Obtém os detalhes de um item específico pelo ID.
-    POST /api/produtos` - Cadastra um novo produto (valida campos obrigatórios, preço e estoque inicial).
-    PUT /api/produtos/{id}` - Atualiza as informações de um item existente.
-    DELETE /api/produtos/{id}` - Remove o produto do catálogo da papelaria.
+**GET** ```/v1/produtos``` - List all products available at the stationery store.
+
+**GET** ```/v1/produtos/{id}``` - Retrieves the details of a specific item by its ID.
+
+**POST** ```/v1/produtos``` - Register a new product
+
+**PUT** ```/v1/produtos/{id}``` - Updates the information for an existing item.
+
+**DELETE** ```/v1/produtos/{id}``` - Remove the product from the stationery store catalog.
