@@ -6,7 +6,7 @@
 
 ## 🗺️ *Roadmap Project (Backend)*
 - [x] Initial folder structure and repository configuration
-- [ ] Implement database in-memory
+- [x] Implement database in-memory
 - [ ] CRUD for Products (`feat/create`, `feat/list`, etc.)
 - [ ] Merge to develop
 - [ ] Merge to staging
